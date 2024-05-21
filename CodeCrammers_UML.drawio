@@ -1,0 +1,470 @@
+<mxfile host="app.diagrams.net" modified="2024-05-21T18:44:24.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="KQp44soSGmqZtKmzhLrX" version="24.4.4" type="github">
+  <diagram name="Page-1" id="XD1wHA15Zp2mq-SakErt">
+    <mxGraphModel dx="2918" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ODBAr7v3amxmQa6mZx3--6" value="Code&lt;div&gt;Crammers&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;width=80;height=30;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="10" width="1410" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--1" value="&lt;b&gt;Sign In&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="90" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Username&lt;/span&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--3" value="+ Password" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--4" value="+ Sign In button&lt;div&gt;&lt;br&gt;&lt;div&gt;+ Forgot Password&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--1">
+          <mxGeometry y="78" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--9" value="&lt;b&gt;Welcome Screen&lt;/b&gt;&lt;div&gt;&lt;b&gt;UI Elements&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--10" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Sign In&lt;/span&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--9">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--11" value="+ Sign Up" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--9">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--12" value="+ Browse as Guest" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--9">
+          <mxGeometry y="78" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--13" value="&lt;b&gt;User Dashboard&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="350" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--14" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Search Bar&lt;/span&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--13">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--15" value="+ Filter options" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--13">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--16" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;+ List of apartments&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Profile button&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Logout button&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--13">
+          <mxGeometry y="78" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--19" value="&lt;b&gt;Sign Up&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="270" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--20" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Username field&lt;/span&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--19">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--21" value="+ Password field" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--19">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--22" value="+ Confirm Password field&lt;div&gt;&lt;br&gt;&lt;div&gt;+ Email field&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Sign Up button&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--19">
+          <mxGeometry y="78" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.009;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="130" as="sourcePoint" />
+            <mxPoint x="345" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="130" />
+              <mxPoint x="40" y="80" />
+              <mxPoint x="170" y="80" />
+              <mxPoint x="280" y="80" />
+              <mxPoint x="280" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;labelBorderColor=#FFFFFF;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="180" as="sourcePoint" />
+            <mxPoint x="693.8400000000001" y="320.79999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="694" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.005;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="160" as="sourcePoint" />
+            <mxPoint x="345" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="160" />
+              <mxPoint x="40" y="200" />
+              <mxPoint x="40" y="281" />
+              <mxPoint x="160" y="280" />
+              <mxPoint x="230" y="280" />
+              <mxPoint x="280" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--33" value="&lt;b&gt;Browse as Guest&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="500" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--34" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Search bar&lt;/span&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--33">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--35" value="+ Filter options&amp;nbsp;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--33">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--36" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Sign-in/Sign-up&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--33">
+          <mxGeometry y="78" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.011;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="180" as="sourcePoint" />
+            <mxPoint x="250" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="180" />
+              <mxPoint x="30" y="270" />
+              <mxPoint x="30" y="330" />
+              <mxPoint x="30" y="360" />
+              <mxPoint x="30" y="410" />
+              <mxPoint x="30" y="450" />
+              <mxPoint x="30" y="480" />
+              <mxPoint x="30" y="520" />
+              <mxPoint x="110" y="520" />
+              <mxPoint x="220" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--40" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.004;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="420" as="sourcePoint" />
+            <mxPoint x="630" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="420" />
+              <mxPoint x="530" y="360" />
+              <mxPoint x="570" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--41" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.001;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ODBAr7v3amxmQa6mZx3--36" target="ODBAr7v3amxmQa6mZx3--13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="630" as="sourcePoint" />
+            <mxPoint x="695" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="594" />
+              <mxPoint x="560" y="490" />
+              <mxPoint x="560" y="460" />
+              <mxPoint x="560" y="400" />
+              <mxPoint x="560" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--48" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.016;entryY=-0.147;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--56">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="210" as="sourcePoint" />
+            <mxPoint x="590" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="210" />
+              <mxPoint x="560" y="120" />
+              <mxPoint x="560" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--49" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.601;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.008;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ODBAr7v3amxmQa6mZx3--56" target="ODBAr7v3amxmQa6mZx3--1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="80" as="sourcePoint" />
+            <mxPoint x="490" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="130" />
+              <mxPoint x="550" y="130" />
+              <mxPoint x="520" y="130" />
+              <mxPoint x="520" y="40" />
+              <mxPoint x="490" y="40" />
+              <mxPoint x="440" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--55" value="Password Recovery" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--56" value="+ Username&lt;div&gt;+ Submit&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--55">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--57" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--55">
+          <mxGeometry y="60" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--58" value="+ Confirmation Message" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--55">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ODBAr7v3amxmQa6mZx3--36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="345" y="620" as="sourcePoint" />
+            <mxPoint x="345" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="594" />
+              <mxPoint x="240" y="580" />
+              <mxPoint x="240" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--62" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.011;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="420" as="sourcePoint" />
+            <mxPoint x="340" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="310" />
+              <mxPoint x="240" y="109" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--63" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--65">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="390" as="sourcePoint" />
+            <mxPoint x="845" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--65" value="&lt;b&gt;Search Bar&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="380" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--66" value="+ Filters and displays a list of apartments based on search criteria." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--65">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--69" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.006;entryY=0.121;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--70">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="791" y="410" as="sourcePoint" />
+            <mxPoint x="850" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="410" />
+              <mxPoint x="820" y="480" />
+              <mxPoint x="860" y="480" />
+              <mxPoint x="910" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--70" value="&lt;b&gt;Filter&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="470" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--71" value="+ Refines the search results based on selected filters." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--70">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--73" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.011;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--71">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="569.38" as="sourcePoint" />
+            <mxPoint x="665" y="569.38" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="569" />
+              <mxPoint x="640" y="530" />
+              <mxPoint x="800" y="530" />
+              <mxPoint x="900" y="530" />
+              <mxPoint x="900" y="494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--74" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--65">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="539.57" as="sourcePoint" />
+            <mxPoint x="850" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="540" />
+              <mxPoint x="720" y="540" />
+              <mxPoint x="800" y="540" />
+              <mxPoint x="800" y="460" />
+              <mxPoint x="800" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--75" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.003;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--76">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="468.46" as="sourcePoint" />
+            <mxPoint x="950" y="468.46" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="468" />
+              <mxPoint x="810" y="550" />
+              <mxPoint x="810" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--76" value="&lt;b&gt;Profile&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--77" value="+ Navigates to user&#39;s profile." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--76">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--78" value="&lt;b&gt;Log-out&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="650" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--79" value="+ Return to welcome screen" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--78">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--80" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.004;entryY=0.078;entryDx=0;entryDy=0;exitX=1.008;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ODBAr7v3amxmQa6mZx3--16" target="ODBAr7v3amxmQa6mZx3--79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="500" as="sourcePoint" />
+            <mxPoint x="940" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="500" />
+              <mxPoint x="820" y="550" />
+              <mxPoint x="820" y="620" />
+              <mxPoint x="820" y="680" />
+              <mxPoint x="930" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--81" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--88">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="440" as="sourcePoint" />
+            <mxPoint x="760" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="440" />
+              <mxPoint x="850" y="640" />
+              <mxPoint x="380" y="640" />
+              <mxPoint x="150" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--82" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.008;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.033;exitY=0.654;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ODBAr7v3amxmQa6mZx3--79" target="ODBAr7v3amxmQa6mZx3--9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="729.5" as="sourcePoint" />
+            <mxPoint x="70" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="711" />
+              <mxPoint x="-40" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--88" value="&lt;b&gt;Apartment Details&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="760" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--89" value="&lt;div style=&quot;text-align: justify;&quot;&gt;+ Images&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--88">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--90" value="+ Description" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--88">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--91" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;+ Amenities&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Rent Details&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Book Now button&amp;nbsp;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--88">
+          <mxGeometry y="78" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--92" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.009;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--93">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="910" as="sourcePoint" />
+            <mxPoint x="350" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="910" />
+              <mxPoint x="270" y="850" />
+              <mxPoint x="270" y="810" />
+              <mxPoint x="270" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--93" value="&lt;b&gt;Booking&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="760" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--94" value="&lt;div style=&quot;text-align: justify;&quot;&gt;+ Contact Landlord&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--93">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--95" value="+ Booking details" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--93">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--96" value="+ Payment options&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Confirm booking&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Back button&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--93">
+          <mxGeometry y="78" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--97" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.009;entryY=-0.095;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="920" as="sourcePoint" />
+            <mxPoint x="350" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="920" />
+              <mxPoint x="260" y="670" />
+              <mxPoint x="260" y="470" />
+              <mxPoint x="260" y="370" />
+              <mxPoint x="260" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--98" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.011;entryY=0.151;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="340" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--99" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.003;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--100">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="507.5" y="880" as="sourcePoint" />
+            <mxPoint x="667.5" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="880" />
+              <mxPoint x="550" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--100" value="&lt;b&gt;Booking Confirmation&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="825" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--101" value="+ Confirmation message" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--100">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--104" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.002;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--88">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="507.5" y="910" as="sourcePoint" />
+            <mxPoint x="667.5" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="910" />
+              <mxPoint x="550" y="960" />
+              <mxPoint x="40" y="960" />
+              <mxPoint x="40" y="850" />
+              <mxPoint x="40" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--105" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.006;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--106">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1140" y="570" as="sourcePoint" />
+            <mxPoint x="1300" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="570" />
+              <mxPoint x="1170" y="760" />
+              <mxPoint x="800" y="760" />
+              <mxPoint x="800" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--106" value="&lt;b&gt;User Profile Screen&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="825" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--107" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ User Information&lt;/span&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--106">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--108" value="+ Edit Profile Button" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--106">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--109" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;+ Booking history&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Saved apartments&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Back Button&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--106">
+          <mxGeometry y="78" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--110" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.005;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="830" y="980" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="980" />
+              <mxPoint x="770" y="800" />
+              <mxPoint x="570" y="800" />
+              <mxPoint x="570" y="700" />
+              <mxPoint x="570" y="600" />
+              <mxPoint x="570" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--112" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="990" y="890" as="sourcePoint" />
+            <mxPoint x="1150" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--117" value="&lt;b&gt;Edit Profile Screen&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="850" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--118" value="+ Username field&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Email field&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Password field&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Save button&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Back button&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ODBAr7v3amxmQa6mZx3--117">
+          <mxGeometry y="26" width="140" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBAr7v3amxmQa6mZx3--119" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.012;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="ODBAr7v3amxmQa6mZx3--107">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1150" y="1010" as="sourcePoint" />
+            <mxPoint x="990" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="1010" />
+              <mxPoint x="800" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
